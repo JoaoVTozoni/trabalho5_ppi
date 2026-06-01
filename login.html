@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Login de pacientes da Clínica ABC Health.">
+  <title>Login - Clínica ABC Health</title>
+  <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+
+  <main>
+    <h2>Acesso ao Sistema</h2>
+
+    <form action="autenticaPaciente.php" method="post">
+
+      <p>
+        <label for="usuario">Usuário:</label>
+        <input type="email" id="usuario" name="usuario" placeholder="teste@mail.com">
+      </p>
+
+      <p>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha">
+      </p>
+
+      <p>
+        <button type="submit">Entrar</button>
+      </p>
+
+    </form>
+  </main>
+
+</body>
+</html>

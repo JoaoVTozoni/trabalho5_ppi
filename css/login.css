@@ -1,0 +1,45 @@
+/* login.css — Trabalho 5 */
+/* Exatamente 4 regras CSS conforme instrução do enunciado */
+
+/* Regra 1: body — fundo cinza, ocupa tela toda para centralizar verticamente */
+body {
+    background-color: #d0d0d0;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Regra 2: main — caixa branca centralizada horizontal e verticalmente */
+main {
+    background-color: #fff;
+    max-width: 300px;
+    border: 1px solid #999;
+    padding: 24px 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Regra 3: labels, inputs e botão — largura 100%, espaçamentos e bordas */
+main label,
+main input,
+main button {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    padding: 6px 8px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1em;
+    border: 1px solid #aaa;
+    background-color: #fff;
+}
+
+/* Regra 4: campo em foco recebe sombreamento cinza */
+main input:focus {
+    outline: none;
+    box-shadow: 0 0 6px rgba(100, 100, 100, 0.75);
+}
